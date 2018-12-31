@@ -1,0 +1,1 @@
+This repo is a mess of files resulting from working through CodeSignal challenges.
