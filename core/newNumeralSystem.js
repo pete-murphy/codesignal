@@ -10,13 +10,8 @@ const zipWith = f => (xs, ys) =>
 function newNumeralSystem(number) {
   const n = numCaps.to(number)
   const xs = range(0, Math.floor(n / 2))
-  const ys = range(Math.floor(n / 2), n)
+  const ys = range(Math.floor(n / 2), n).reverse()
   return zipWith((x, y) => `${numCaps.from(x)} + ${numCaps.from(y)}`)(xs, ys)
 }
-
-// zipWith((x, y) => `${numCaps.from(x)} + ${numCaps.from(y)}`)(
-//   [0, 1, 2],
-//   [4, 3, 2]
-// ) //?
 
 module.exports = newNumeralSystem

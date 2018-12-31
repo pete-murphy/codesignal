@@ -9,7 +9,3 @@ function firstDuplicate(a) {
   }
   return go(a.reverse())
 }
-
-firstDuplicate([2, 1, 3, 5]) //?
-firstDuplicate([2, 1, 3, 5, 3, 2]) //?
-firstDuplicate([1, 1, 2, 2, 1]) //?
