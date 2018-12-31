@@ -13,7 +13,3 @@ function firstDuplicate(a) {
 firstDuplicate([2, 1, 3, 5]) //?
 firstDuplicate([2, 1, 3, 5, 3, 2]) //?
 firstDuplicate([1, 1, 2, 2, 1]) //?
-
-// ;[2, 1, 3, 5, 3, 2].reduce((acc, x, i) =>
-//   (acc.includes(x) ? i : [...acc, x])
-// , []) //?
